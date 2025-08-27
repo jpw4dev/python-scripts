@@ -26,7 +26,7 @@ def get_args():
 	parser.add_argument("--port", type=int, default=1099, help="jmx port")
 	parser.add_argument("--jmxUser", type=str, help="jmx username")
 	parser.add_argument("--jmxPass", type=str, help="jmx password")
-	parser.add_argument("--domain", type=str, default="com.jamfsoftware,micrometer", help="comma delimited list of domains to search")
+	parser.add_argument("--domain", type=str, default="com.company,micrometer", help="comma delimited list of domains to search")
 	parser.add_argument("--output", type=str, help="file path to save json")
 	
 	args = parser.parse_args()
